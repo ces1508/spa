@@ -1,0 +1,31 @@
+{
+  "name": "spa",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "numeral": "^2.0.6",
+    "qs": "^6.5.0",
+    "react": "16.2.0",
+    "react-native": "0.46.4",
+    "react-native-axios": "^0.17.1",
+    "react-native-drawer": "^2.3.0",
+    "react-native-fbsdk": "^0.6.1",
+    "react-native-router-flux": "3.40.1",
+    "react-native-vector-icons": "^4.2.0",
+    "react-native-video": "^1.0.0",
+    "url-search-params": "^0.9.0"
+  },
+  "devDependencies": {
+    "babel-jest": "22.4.0",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.4.0",
+    "react-test-renderer": "16.2.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
